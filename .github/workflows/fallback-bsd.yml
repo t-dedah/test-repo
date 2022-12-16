@@ -9,9 +9,9 @@ jobs:
     name: runner-cache upload
     steps:
     - uses: actions/checkout@v3
-    - shell: bash
-      run: |
-        rm "C:\Program Files\Git\usr\bin\tar.exe"
+#     - shell: bash
+#       run: |
+#         rm "C:\Program Files\Git\usr\bin\tar.exe"
     - name: Create file to cache
       shell: bash
       run: |
